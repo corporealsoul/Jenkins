@@ -4,7 +4,7 @@
 
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ git add .
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ git status
-[anup@automation-and-continuous-delivery When-IM-at-SAP]$ git commit -m "Jenkins-TRAINING2024-Apr15-00"
+[anup@automation-and-continuous-delivery When-IM-at-SAP]$ git commit -m "Jenkins-TRAINING2023-May13-00"
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ git status
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ git push (corporealsoul)
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ git branch
