@@ -22,6 +22,18 @@ anup@automation-and-continuous-delivery:~$ chmod 755 jenkins/
 anup@automation-and-continuous-delivery:~$ cd jenkins/
 
 
-### -- Add a Slave / Agent
+### -- Tools in Jenkins
+
+
+### -- Freestyle project
+
+
+### -- Tools in Jenkins
+
+
+### -- Pipeline
+
+
+### -- Security analysis
 
 
