@@ -5,18 +5,11 @@ anup@infrustructure-management-and-provisioning:~$ psql --version
 
 ### Configuration,
 anup@infrustructure-management-and-provisioning:~$ su - postgres # 6£t78,(EPHV<
+Password: 6£t78,(EPHV<
 
-Approach one,
-postgres=# CREATE USER sonarqube WITH PASSWORD 'N4V4e!0'w2jq';
-postgres'# CREATE DATABASE sonarqube OWNER sonarqube;
-postgres'# GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonarqube;
-
-
-
-Approach two,
 postgres@infrustructure-management-and-provisioning:~$ createuser sonar
 postgres@infrustructure-management-and-provisioning:~$ psql
-postgres=# ALTER USER sonar WITH ENCRYPTED password 'N4V4e!0'w2jq';
+postgres=# ALTER USER sonar WITH ENCRYPTED password 'N4V4e!02w2jq';
 postgres'# CREATE DATABASE sonarqube OWNER sonar;
 postgres'# GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
 postgres'# \dl
