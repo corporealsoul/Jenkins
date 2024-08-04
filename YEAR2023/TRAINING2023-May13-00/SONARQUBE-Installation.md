@@ -1,11 +1,19 @@
-### Detailed installation,
+### Pre-requisites,
 anup@infrustructure-management-and-provisioning:~$ java --version
-
 anup@infrustructure-management-and-provisioning:~$ psql --version
 
-Postgres configuration for Sonarqube,
-anup@infrustructure-management-and-provisioning:~$ su - postgres
-Password: 6£t78,(EPHV<
+
+### Configuration,
+anup@infrustructure-management-and-provisioning:~$ su - postgres # 6£t78,(EPHV<
+
+Approach one,
+postgres=# CREATE USER sonarqube WITH PASSWORD 'N4V4e!0'w2jq';
+postgres'# CREATE DATABASE sonarqube OWNER sonarqube;
+postgres'# GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonarqube;
+
+
+
+Approach two,
 postgres@infrustructure-management-and-provisioning:~$ createuser sonar
 postgres@infrustructure-management-and-provisioning:~$ psql
 postgres=# ALTER USER sonar WITH ENCRYPTED password 'N4V4e!0'w2jq';
@@ -130,6 +138,6 @@ http://192.168.56.201:9000/
 
 
 ### Docker Installation,
-
+https://www.youtube.com/watch?v=BoI0LYgyUzE
 
 
