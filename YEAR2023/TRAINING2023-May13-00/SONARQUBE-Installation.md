@@ -133,7 +133,8 @@ anup@infrustructure-management-and-provisioning:~$ sudo systemctl status nginx
 
 http://192.168.56.101:9000/
 
-
+Id : admin
+Password : N4V4e!02w2jq
 
 
 
@@ -162,6 +163,7 @@ anup@automation-and-continuous-delivery:~$ docker ps
 anup@automation-and-continuous-delivery:~$ docker ps -a
 anup@automation-and-continuous-delivery:~$ docker logs sonar
 anup@automation-and-continuous-delivery:~$ docker stats sonar
+
 
 ### With docker compose
 https://github.com/SonarSource/docker-sonarqube/blob/master/example-compose-files/sq-with-postgres/docker-compose.yml

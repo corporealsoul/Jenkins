@@ -21,6 +21,9 @@ root    ALL=(ALL)       ALL
 anup    ALL=(ALL)       ALL
 jenkins ALL=(ALL)       NOPASSWD:ALL
 
+
+
+
 ### Create user to run ansible playbooks
 [anup@automation-and-continuous-delivery playbooks]$ sudo useradd corporealsoul
 [anup@automation-and-continuous-delivery playbooks]$ sudo passwd corporealsoul
