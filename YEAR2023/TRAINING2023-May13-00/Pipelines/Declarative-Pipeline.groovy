@@ -23,7 +23,7 @@ pipeline {
                 label 'automation'
             }
             steps {
-                dependencyCheck additionalArguments: '--scan ./ --format HTML', odcInstallation: 'Dependency-Check'
+                dependencyCheck additionalArguments: '--scan ./ ', odcInstallation: 'Dependency-Check'
                 dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
             }
         }

@@ -10,9 +10,9 @@ anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-
 anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ sudo apt update
 anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ sudo apt install postgresql postgresql-contrib -y
 
+anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ psql --version
 anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ sudo systemctl status postgresql.service
 anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ sudo systemctl enable postgresql.service
-anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ psql --version
 
 anup@infrustructure-management-and-provisioning:~/Jenkins/YEAR2023/TRAINING2023-May13-00$ sudo passwd postgres
 New password: 6£t78,(EPHV<
