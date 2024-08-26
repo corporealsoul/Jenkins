@@ -15,13 +15,12 @@ http://192.168.56.102:8080/
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ sudo firewall-cmd --reload
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ sudo firewall-cmd --zone=public --list-ports
 
+
 ### Run shell command with Sudo
 [anup@automation-and-continuous-delivery When-IM-at-SAP]$ sudo visudo
 root    ALL=(ALL)       ALL
 anup    ALL=(ALL)       ALL
 jenkins ALL=(ALL)       NOPASSWD:ALL
-
-
 
 
 ### Create user to run ansible playbooks
