@@ -17,13 +17,17 @@ package: com.cliinteractivemavenjar2024.app
 
 Maven build lifecyle :
 anup@automation-and-continuous-delivery:~$ cd CLI-Interactive-Maven-JAR-2024/
+Clean : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn clean
 Validate : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn validate
 Compile : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn compile
 Test : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn test
 Package : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn package
 Verify : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn verify
 Install : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-2024$ mvn install
+
 Deploy
+
+Goals : validate compile test package verify install
 
 
 Maven Dependencies,

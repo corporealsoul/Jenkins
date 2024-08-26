@@ -27,3 +27,19 @@ jenkins ALL=(ALL)       NOPASSWD:ALL
 [anup@automation-and-continuous-delivery playbooks]$ sudo useradd corporealsoul
 [anup@automation-and-continuous-delivery playbooks]$ sudo passwd corporealsoul
 [anup@automation-and-continuous-delivery playbooks]$ sudo usermod -aG wheel corporealsoul
+
+
+### Ubuntu Installation,
+https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+
+[anup@infrustructure-management-and-provisioning 07:14:39 Jenkins]$ sudo systemctl status jenkins.service
+
+http://192.168.56.101:8080/
+
+
+
+
+
+
+
