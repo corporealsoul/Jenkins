@@ -27,7 +27,7 @@ Install : anup@automation-and-continuous-delivery:~/CLI-Interactive-Maven-JAR-20
 
 Deploy
 
-Goals : validate compile test package verify install
+Goals : clean validate compile test package verify install
 
 
 Maven Dependencies,
