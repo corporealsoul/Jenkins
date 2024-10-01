@@ -33,7 +33,6 @@ jenkins ALL=(ALL:ALL) NOPASSWD:ALL
 
 ### -- Pipeline
 
-
 ### -- Security analysis
 
 

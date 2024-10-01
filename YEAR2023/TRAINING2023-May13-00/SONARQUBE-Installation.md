@@ -164,6 +164,18 @@ anup@automation-and-continuous-delivery:~$ docker ps -a
 anup@automation-and-continuous-delivery:~$ docker logs sonar
 anup@automation-and-continuous-delivery:~$ docker stats sonar
 
+[anup@infrustructure-management-and-provisioning 10:39:41 ~]$ docker start sonar
+
+http://192.168.56.101:9000/
+
+Id : admin
+Password : N4V4e!02w2jq
+
+Generate Tokens
+Nanme : admin
+Token : squ_9603d90e95e8c5f9215cd8e53c32a662a6a0db06
+
+
 
 ### With docker compose
 https://github.com/SonarSource/docker-sonarqube/blob/master/example-compose-files/sq-with-postgres/docker-compose.yml
@@ -171,5 +183,4 @@ https://github.com/SonarSource/docker-sonarqube/blob/master/example-compose-file
 anup@automation-and-continuous-delivery:~$ nano docker-compose.yml
 anup@automation-and-continuous-delivery:~$ docker-compose up -d
 anup@automation-and-continuous-delivery:~$ docker ps -a
-
 
